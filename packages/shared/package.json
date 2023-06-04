@@ -1,0 +1,31 @@
+{
+  "name": "@terminus/t-console-shared",
+  "version": "2.0.0-dev-1684768781943",
+  "description": "",
+  "main": "src/index.ts",
+  "clean-package": {
+    "replace": {
+      "main": "dist/index.js",
+      "module": "dist/index.mjs",
+      "types": "dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts",
+    "typecheck": "tsc --noEmit",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+  "peerDependencies": {
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

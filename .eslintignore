@@ -1,0 +1,11 @@
+dist
+node_modules
+coverage
+.next
+build
+examples/vue-ts
+plop-templates
+*.js
+vite.config.ts
+sandbox-vite.config.ts
+*.stories.tsx

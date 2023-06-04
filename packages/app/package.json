@@ -1,0 +1,28 @@
+{
+  "name": "@chihiro/app",
+  "version": "2.0.0-dev-1684768781943",
+  "description": "Chihiro App",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tanstack/react-query": "4.2.3",
+    "create-context-helper": "0.1.5",
+    "lodash-es": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+
+    "react-router-dom": "^6.3.0",
+
+    "react-use": "^17.4.0",
+
+    "zustand": "^4.1.0"
+  }
+}
